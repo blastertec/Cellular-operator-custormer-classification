@@ -1,5 +1,5 @@
 # Data science task to do a binary classification of cellular operator customers
-All in depth research and thought process can be found in ipynb file, here I'll give a short description of the task
+All in-depth research and thought process can be found in ipynb file, here I'll give a short description of the task
 
 ## Initial data
 We have data files:
@@ -8,13 +8,13 @@ We have data files:
 * train.csv
 * test.csv
 
-`tabular_data` and `hashed_feature` countain features data for 4084 customers, where "id" is client's identifier, "period" - data period, "feature_1, 2 .. 49" contain feature about client's activities.
+`tabular_data` and `hashed_feature` contain features data for 4084 customers, where "id" is client's identifier, "period" - data period, "feature_1, 2 .. 49" contain feature about client's activities.
 Part of the tabular_data file:
 <p align="left">
   <img src="img/tabular_data.png" alt="initial tabular data" width="420"/>
 </p>
 
-I'm not given any information what those encoded "features" mean, but it can be assumed they are something like this:
+I'm not given any information on what do those encoded "features" mean, but it can be assumed they are something like this:
 <p align="left">
   <img src="img/readable_headings.png" alt="possible headings for the data table" width="420"/>
 </p>
@@ -33,8 +33,13 @@ hashed_feature file:
 
 
 ## The task
-First of all - initial data contains missed values, we have to deal with that. Also as it is mentioned above - client data is located in two files. So one way is to merge them into one dataframe to feed the model.
+First of all - initial data contains missed values, we have to deal with that. Also as is mentioned above - client data is located in two files. So one way is to merge them into one data frame to feed the model.
 
-We have to do a binary classification. 1 - customer is a car driver, 0 - customer is not a car driver.  
+This is a task of binary classification. 1 - the customer is a car driver, 0 - the customer is not a car driver.
+I build 2 models on 2 data frames and evaluated them (all details are in the file). Then I choose the most effective one for making predictions.
+ <p align="left">
+   <img src="img/ROC-AUC.png" alt="evaluating models" width="420"/>
+ </p>
+
 
 
