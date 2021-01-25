@@ -1,7 +1,11 @@
 # Data science task to do a binary classification of cellular operator customers
 All in-depth research and thought process can be found in ipynb file 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/blastertec/cellular-operator-custormers-classification/cellular_clients_models.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](cellular_clients_models.ipynb)
+
+<a href="https://colab.research.google.com/github/blastertec/cellular-operator-custormers-classification/blob/main/cellular_clients_models.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 I'll give a short description of the task below
 
