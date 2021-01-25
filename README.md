@@ -1,4 +1,4 @@
-# Data science task to do a binary classification of cellular operator customers
+# Solutions for binary classification of cellular operator customers task
 All in-depth research and thought process can be found in ipynb file 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/blastertec/cellular-operator-custormers-classification/blob/main/cellular_clients_models.ipynb)
