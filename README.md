@@ -40,7 +40,7 @@ hashed_feature file:
 First of all - initial data contains missed values, we have to deal with that. Also as is mentioned above - client data is located in two files. So one way is to merge them into one data frame to feed the model.
 
 This is a task of binary classification. 1 - the customer is a car driver, 0 - the customer is not a car driver.
-I built 2 models on 2 data frames and evaluated them (all details are in the file). Then I choose the most effective one for making predictions.
+I built 3 models on 2 data frames and evaluated them (all details are in the file). Then I have chosen the most effective one for making predictions.
  <p align="left">
    <img src="img/ROC-AUC.png" alt="evaluating models" width="420"/>
  </p>
